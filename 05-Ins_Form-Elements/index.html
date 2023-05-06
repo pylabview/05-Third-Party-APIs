@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/jass.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JQuery Pizza</title>
+</head>
+
+<body>
+    <div class="bg-dark min-100-vh flex-row align-center justify-center">
+        <div class="col-11 col-sm-8">
+            <h1 class="text-light">Free Pizza Raffle Sign Up!</h1>
+
+            <div class="card rounded bg-light p-3">
+                <div class="card-body">
+                    <form id="pizza-form">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" placeholder="Enter first name" class="form-input">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" placeholder="Enter Last Name" class="form-input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" placeholder="Enter email" class="form-input">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="github">Github</label>
+                                <input type="text" name="github" placeholder="Enter Github" class="form-input">
+                            </div>
+                        </div>
+
+                        <fieldset class="group">
+                            <legend>Select standard pizza toppings</legend>
+                            <ul class="checkbox">
+                                <li>
+                                    <input type="checkbox" id="cb1" value="pepperoni">
+                                    <label for="cb1">Pepperoni</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb2" value="sausage">
+                                    <label for="cb2">Sausage</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb3" value="mushrooms">
+                                    <label for="cb3">Mushrooms</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb4" value="onions">
+                                    <label for="cb4">Onions</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb5" value="green peppers">
+                                    <label for="cb5">Green Peppers</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb6" value="extra cheese">
+                                    <label for="cb6">Extra Cheese</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <button class="btn btn-danger btn-block">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
